@@ -59,7 +59,8 @@ public class LoginLogoutController {
             
             // something is wrong with the input or password not found.
             context.getFlashCookie().put("username", username);
-            context.getFlashCookie().error("login.errorLogin");
+            //context.getFlashCookie().error("login.errorLogin");
+            context.getFlashCookie().error("login.failLogin");
 
             return Results.redirect("/login");
             
