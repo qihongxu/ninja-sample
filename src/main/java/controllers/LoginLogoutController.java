@@ -50,7 +50,7 @@ public class LoginLogoutController {
         
         
         if (isUserNameAndPasswordValid) {
-            context.getSessionCookie().put("username", username1);
+            context.getSessionCookie().put("username", username);
             context.getFlashCookie().success("login.loginSuccessful");
             
             return Results.redirect("/");
@@ -60,7 +60,7 @@ public class LoginLogoutController {
             // something is wrong with the input or password not found.
             context.getFlashCookie().put("username", username);
             //context.getFlashCookie().error("login.errorLogin");
-            context.getFlashCookie().error("login.failLogin");
+            //context.getFlashCookie().error("login.failLogin");
 
             return Results.redirect("/login");
             
