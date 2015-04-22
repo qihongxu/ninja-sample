@@ -36,7 +36,7 @@ public class ArticleController {
 
         }
 
-        return Results.html().render("article", article);
+        returnt Results.html().render("article", article);
 
     }
     
