@@ -50,7 +50,7 @@ public class LoginLogoutController {
         
         
         if (isUserNameAndPasswordValid) {
-            context.getSessionCookie().put("username", username);
+            context.getSessionCookie().put("username", username1);
             context.getFlashCookie().success("login.loginSuccessful");
             
             return Results.redirect("/");
