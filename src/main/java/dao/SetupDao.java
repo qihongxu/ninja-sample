@@ -50,10 +50,10 @@ public class SetupDao {
     String lipsum = "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed nisl sed lorem commodo elementum in a leo. Aliquam erat volutpat. Nulla libero odio, consectetur eget rutrum ac, varius vitae orci. Suspendisse facilisis tempus elit, facilisis ultricies massa condimentum in. Aenean id felis libero. Quisque nisl eros, accumsan eget ornare id, pharetra eget felis. Aenean purus erat, egestas nec scelerisque non, eleifend id ligula. eget ornare id, pharetra eget felis. Aenean purus erat, egestas nec scelerisque non, eleifend id ligula. eget ornare id, pharetra eget felis. Aenean purus erat, egestas nec scelerisque non, eleifend id ligula. eget ornare id, pharetra eget felis. Aenean purus erat, egestas nec scelerisque non, eleifend id ligula. eget ornare id, pharetra eget felis. Aenean purus erat, egestas nec scelerisque non, eleifend id ligula. eget ornare id, pharetra eget felis. Aenean purus erat, egestas nec scelerisque non, eleifend id ligula. eget ornare id, pharetra eget felis. Aenean purus erat, egestas nec scelerisque non, eleifend id ligula. eget ornare id, pharetra eget felis. Aenean purus erat, egestas nec scelerisque non, eleifend id ligula.";
 
     
-    public String post1Title = "Hello to the blog example!";
+    public String post1Title = "Hello Professors!";
     public String post1Content = 
-            "<p>Hi and welcome to the demo of Ninja!</p> "
-            + "<p>This example shows how you can use Ninja in the wild. Some things you can learn:</p>"
+            "<p>Hi and welcome to the demo of Continuous Integration in the Cloud!</p> "
+            + "<p>This example shows how you can use CI. Some things you can learn:</p>"
             + "<ul>"
             + "<li>How to use the templating system (header, footer)</li>"
             + "<li>How to test your application with ease.</li>"
